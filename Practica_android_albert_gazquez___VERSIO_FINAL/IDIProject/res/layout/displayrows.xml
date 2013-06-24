@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="wrap_content" android:layout_width="fill_parent"
+android:orientation="vertical">
+<LinearLayout
+      android:id="@+id/linearLayout1"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent" >
+      
+  <ImageView android:id="@+id/icon" 
+      android:src="@drawable/reminder" 
+      android:layout_marginLeft="4px" 
+      android:layout_marginRight="8px" 
+      android:layout_height="40px" 
+      android:layout_marginTop="8px" 
+      android:layout_width="30px" />
+  <TextView
+      android:id="@+id/lab1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6px"
+      android:text="day"
+      android:textSize="20px" />
+
+  <TextView
+      android:id="@+id/lab2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6px"
+      android:text="/"
+      android:textSize="20px" />
+
+  <TextView
+      android:id="@+id/lab3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6px"
+      android:text="month"
+      android:textSize="20px" />
+  
+  <TextView
+      android:id="@+id/lab4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6px"
+      android:text="/"
+      android:textSize="20px" />
+  
+  <TextView
+      android:id="@+id/lab5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6px"
+      android:text="year"
+      android:textSize="20px" />
+  </LinearLayout>
+  
+  <LinearLayout
+      android:id="@+id/linearLayout1"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent" >
+  
+  
+   <TextView
+      android:id="@+id/lab6"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6px"
+      android:text=""
+      android:textSize="20px" />
+   
+   <TextView
+      android:id="@+id/lab7"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6px"
+      android:text=" : "
+      android:textSize="20px" />
+   
+   <TextView
+      android:id="@+id/lab8"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6px"
+      android:text=""
+      android:textSize="20px" />
+   
+   </LinearLayout>
+   
+  <LinearLayout
+      android:id="@+id/linearLayout1"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent" >
+   
+   <TextView
+      android:id="@+id/lab51"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6px"
+      android:text="Category: "
+      android:textSize="20px" />
+      
+      <TextView
+      android:id="@+id/lab52"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6px"
+      android:text="cat"
+      android:textSize="20px" />
+      
+ 
+  </LinearLayout>
+
+   <TextView
+      android:id="@+id/lab9"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6px"
+      android:text="Message:"
+      android:textSize="20px" />
+   <TextView
+      android:id="@+id/lab10"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6px"
+      android:text="Data"
+      android:textSize="30px" />
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+	android:layout_height="match_parent"
+>
+<RadioGroup android:orientation="horizontal"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:id="@+id/rgorderby"
+  			android:weightSum="3">
+  			
+  			<RadioButton android:id="@+id/rorderbyall" 
+    			android:text="All" 
+    			android:layout_height="wrap_content" 
+    			android:layout_width="wrap_content"
+    			android:layout_weight="1"></RadioButton>
+  			
+    		<RadioButton android:id="@+id/rorderbyid" 
+    			android:text="Urgent" 
+    			android:layout_height="wrap_content" 
+    			android:layout_width="wrap_content"
+    			android:layout_weight="1"></RadioButton>
+    		
+    		<RadioButton android:id="@+id/rorderbycat" 
+    			android:text="Reminder" 
+    			android:layout_height="wrap_content" 
+    			android:layout_width="wrap_content"
+    			android:layout_weight="1"></RadioButton>
+    </RadioGroup> 
+    				
+    <RadioGroup android:orientation="horizontal"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:id="@+id/rgorderby2"
+  			android:weightSum="2">
+    		
+    		<RadioButton android:id="@+id/rbytodayall" 
+    			android:text="All Events" 
+    			android:layout_height="wrap_content" 
+    			android:layout_width="wrap_content"
+    			android:layout_weight="1"></RadioButton>
+    		
+    		<RadioButton android:id="@+id/rbytoday" 
+    			android:text="Today Events" 
+    			android:layout_height="wrap_content" 
+    			android:layout_width="wrap_content"
+    			android:layout_weight="1"></RadioButton>
+
+    
+
+    		</RadioGroup>
+  
+  <ListView android:id="@android:id/list" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" /> 
+  
+
+    	  
+</LinearLayout>

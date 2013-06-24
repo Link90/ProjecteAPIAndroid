@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1"
+  android:background="@drawable/background3">
+  
+ 
+  
+    <EditText android:id="@+id/editText1" 
+    	android:layout_width="match_parent" 
+    	android:layout_height="154dp"
+    	android:hint="Type In Text">
+
+    </EditText>
+    <LinearLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:orientation="horizontal"
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" android:weightSum="2">
+    
+    	<TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+    		android:id="@+id/tstyle" 
+    		android:text="Style" 
+    		android:gravity="center"
+    		android:layout_weight="1"
+    		android:layout_height="wrap_content" 
+    		android:layout_width="fill_parent"
+    		android:textStyle="bold"
+    		android:textSize="20dp"></TextView>
+    	
+    	<TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+    		android:id="@+id/tgravity" 
+    		android:text="Gravity"
+    		android:gravity="center"
+    		android:layout_weight="1" 
+    		android:layout_height="wrap_content" 
+    		android:layout_width="fill_parent"
+    		android:textStyle="bold"
+    		android:textSize="20dp"></TextView>
+    </LinearLayout>
+    
+    <LinearLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:orientation="horizontal"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content" android:weightSum="2">
+  		<RadioGroup android:orientation="vertical"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:layout_weight="1"
+  			android:id="@+id/rgstyle">	
+  			<RadioButton android:id="@+id/rnormal" 
+    			android:text="Normal" 
+    			android:layout_height="wrap_content" 
+    			android:layout_width="wrap_content"></RadioButton>
+    		<RadioButton android:id="@+id/ritalic" 
+    			android:text="Italic" 
+    			android:layout_height="wrap_content" 
+    			android:layout_width="wrap_content"></RadioButton>
+    		<RadioButton android:id="@+id/rbold" 
+    			android:text="Bold" 
+    			android:layout_height="wrap_content" 
+    			android:layout_width="wrap_content"></RadioButton>
+ 		</RadioGroup>   
+ 				
+ 		<RadioGroup android:orientation="vertical"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:layout_weight="1"
+  			android:id="@+id/rggravity">
+    		<RadioButton android:id="@+id/rleft" 
+    			android:text="Left" 
+    			android:layout_height="wrap_content" 
+    			android:layout_width="wrap_content"></RadioButton>
+    		<RadioButton android:id="@+id/rcenter" 
+    			android:text="Center" 
+    			android:layout_height="wrap_content" 
+    			android:layout_width="wrap_content"></RadioButton>
+    		<RadioButton android:id="@+id/rright" 
+    			android:text="Right" 
+    			android:layout_height="wrap_content" 
+    			android:layout_width="wrap_content"></RadioButton>
+    		</RadioGroup> 	
+    </LinearLayout>
+    <Spinner 
+		android:id="@+id/categoryspinner" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:entries="@array/priorities"/>
+ 	<ScrollView 
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content">
+ 	<LinearLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:orientation="vertical"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content" android:weightSum="2">
+
+ 		
+
+    	<TimePicker android:id="@+id/timePicker1" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content"></TimePicker>
+    	
+    	<DatePicker android:id="@+id/datePicker1" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1"
+    		android:startYear="2011"></DatePicker>
+    	
+    	<TextView android:gravity="center" 
+    		android:textAppearance="?android:attr/textAppearanceLarge" 
+    		android:id="@+id/tsavedata" 
+    		android:text="Save data" 
+    		android:layout_height="wrap_content" 
+    		android:layout_width="fill_parent"></TextView>
+    
+    	<Button android:id="@+id/bcheck" 
+    		android:text="Check" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content"></Button>
+    	
+    	<Button android:id="@+id/baccept" 
+    		android:text="Accept" 
+    		android:layout_height="wrap_content" 
+    		android:layout_width="fill_parent"></Button>
+    
+		</LinearLayout>
+ 		</ScrollView>
+    
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   
+   <item
+   android:id="@+id/opscreen1in"
+   android:alphabeticShortcut="1"
+   android:title= "Enter new data"/>
+   <item
+   android:id="@+id/displaycalendar"
+   android:alphabeticShortcut="2"
+   android:title= "Display Calendar"/>
+   <item
+   android:id="@+id/mop"
+   android:alphabeticShortcut="3"
+   android:title= "Options"/>
+    
+</menu>
